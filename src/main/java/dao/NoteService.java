@@ -1,8 +1,9 @@
 package dao;
 
+import java.util.ArrayList;
+
 import model.Note;
 
-import java.util.ArrayList;
 
 public class NoteService {
     private static ArrayList<Note> notes = new ArrayList<Note>();
@@ -12,10 +13,10 @@ public class NoteService {
     }
 
     public static void update(Note note) {
-        for (int n = 0; n < notes.size(); n++) {
-            if (notes.get(n).getId() == note.getId()) {
-                notes.get(n).setText(note.getText());
-                notes.get(n).setTitle(note.getTitle());
+        for (Note note1 : notes) {
+            if (note1.getId() == note.getId()) {
+                note1.setText(note.getText());
+                note1.setTitle(note.getTitle());
             }
         }
     }
