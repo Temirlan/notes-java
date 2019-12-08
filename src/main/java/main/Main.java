@@ -1,11 +1,15 @@
 package main;
 
-import gui.NoteGUI;
+import gui.NoteGui;
 
 public class Main {
-    public static void main(String[] args) {
-        NoteGUI app = new NoteGUI("Note app!");
-        app.setVisible(true);
-        app.pack();
-    }
+
+  /**
+   * Main method.
+   */
+  public static void main(String[] args) {
+    NoteGui app = new NoteGui("Note app!");
+    app.setVisible(true);
+    app.pack();
+  }
 }
