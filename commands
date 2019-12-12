@@ -1,0 +1,4 @@
+mvn checkstyle:check
+mvn checkstyle:checkstyle
+
+https://maven.apache.org/plugins/maven-checkstyle-plugin/checkstyle-mojo.html
