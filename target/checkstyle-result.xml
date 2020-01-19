@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="8.27">
-<file name="D:\java\src\main\java\model\Note.java">
+<checkstyle version="8.19">
+<file name="/home/temirlan/notes-java/src/main/java/gui/NoteGui.java">
+</file>
+<file name="/home/temirlan/notes-java/src/main/java/gui/CreateNoteEventListener.java">
+</file>
+<file name="/home/temirlan/notes-java/src/main/java/dao/NoteService.java">
+</file>
+<file name="/home/temirlan/notes-java/src/main/java/model/Note.java">
+</file>
+<file name="/home/temirlan/notes-java/src/main/java/main/Main.java">
 </file>
 </checkstyle>
