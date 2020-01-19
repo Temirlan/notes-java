@@ -1,4 +1,5 @@
 mvn checkstyle:check
 mvn checkstyle:checkstyle
+mvn pmd:check
 
 https://maven.apache.org/plugins/maven-checkstyle-plugin/checkstyle-mojo.html
